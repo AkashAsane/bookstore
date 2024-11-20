@@ -13,6 +13,7 @@ app.use(
       "http://localhost:5173",
       "https://book-store-alpha-seven.vercel.app",
     ],
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true,
   })
 );
