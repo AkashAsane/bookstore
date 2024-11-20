@@ -11,11 +11,12 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://book-store-alpha-seven.vercel.app/",
+      "https://book-store-alpha-seven.vercel.app",
     ],
     credentials: true,
   })
 );
+
 // ROUTES
 const bookRoutes = require("./src/books/book.route");
 const orderRoutes = require("./src/orders/order.route");
