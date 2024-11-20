@@ -6,7 +6,6 @@ A complete MERN stack project for managing a book store, including user authenti
 ---
 
 ## To Add-Edit-Delete Books visit 
-## Admin :- https://book-store-alpha-seven.vercel.app/admin
 ## username :- admin , password :- 123456
 
 ## 🛠️ How to Run This Project
