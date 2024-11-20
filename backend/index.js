@@ -9,7 +9,7 @@ require("dotenv").config();
 app.use(express.json());
 app.use(
   cors({
-    origin: "*",
+    origin: "https://bookstore-azure-beta.vercel.app",
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true,
   })
